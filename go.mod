@@ -21,6 +21,24 @@ require (
 	github.com/gorilla/mux v1.8.1
 	github.com/justinas/alice v1.2.0
 	github.com/mbland/hmacauth v0.0.0-20170912233209-44256dfd4bfa
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/oauth2-proxy/tools/reference-gen v0.0.0-20210118095127-56ffd7384404
+	github.com/onsi/ginkgo v1.14.1
+	github.com/onsi/gomega v1.10.2
+	github.com/pierrec/lz4 v2.5.2+incompatible
+	github.com/prometheus/client_golang v1.11.1
+	github.com/spf13/pflag v1.0.5
+	github.com/spf13/viper v1.6.3
+	github.com/stretchr/testify v1.8.1
+	github.com/vmihailenco/msgpack/v4 v4.3.11
+	golang.org/x/crypto v0.21.0
+	golang.org/x/net v0.23.0
+	golang.org/x/oauth2 v0.7.0
+	golang.org/x/sync v0.1.0
+	google.golang.org/api v0.114.0
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0
+	gopkg.in/square/go-jose.v2 v2.5.1
+	k8s.io/apimachinery v0.19.3
 	github.com/oauth2-proxy/mockoidc v0.0.0-20240214162133-caebfff84d25
 	github.com/onsi/ginkgo/v2 v2.23.4
 	github.com/onsi/gomega v1.37.0
@@ -42,10 +60,15 @@ require (
 )
 
 require (
+	cloud.google.com/go/compute v1.19.1 // indirect
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	cloud.google.com/go/auth v0.16.2 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect

@@ -12,7 +12,9 @@ ARG VERSION
 #  cache sharing of the go mod download step.
 # Go cross compilation is also faster than emulation the go compilation across
 #  multiple platforms.
+
 FROM --platform=${BUILDPLATFORM} ${BUILD_IMAGE} AS builder
+
 
 # Copy sources
 WORKDIR $GOPATH/src/github.com/oauth2-proxy/oauth2-proxy
